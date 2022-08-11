@@ -1,5 +1,22 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 300px;
+  padding: 10px 0px 0px 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 * {
-  background-color: red;
+  padding: 0px;
+  margin: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
