@@ -1,0 +1,10 @@
+header{
+    @include display-horizontal-center;
+    width: 100%;
+    z-index: 2;
+
+    img{
+        width: 300px;
+        padding: 10px 0px 10px 0px;
+    }
+}

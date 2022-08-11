@@ -1,0 +1,14 @@
+.intro{
+    @include display-column-center;
+}
+
+.location{
+    @include display-horizontal-center;
+    gap: 15px;
+    background-color: $colour-light-grey;
+    padding: 20px 0px 20px 00px;
+}
+
+.exploration{
+    @include display-column-center
+}

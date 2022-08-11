@@ -1,6 +1,14 @@
 @import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./base/font";
+
 @import "./layouts/header";
 @import "./layouts/body";
+
+@import "./components/header.scss";
+
+@import "./pages/accueil.scss";
 
 *{
     padding: 0px;
