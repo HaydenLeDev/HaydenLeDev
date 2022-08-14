@@ -1,8 +1,8 @@
 .functioning_carte{
     @include display-horizontal-center;
     justify-content: flex-start;
-    gap: 20px;
-    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    padding: 25px 0px 25px 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: darken($colour-white, 1%);
     border-radius: 10px;
@@ -11,12 +11,27 @@
     &_number{
         @include display-horizontal-center;
         position: relative;
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 26px;
         border-radius: 100%;
-        left: -10px;
+        left: -13px;
         color: $colour-white;
         background-color: $colour-primary;
+        font-size: 18px;
+    }
+
+    &_text{
+        @include display-horizontal-center;
+        gap: 10px;
+        
+        &_icone{
+            font-size: 20px;
+        }
+
+        & p{
+            margin-left: 10px;
+            font-size: 18px;
+        }
     }
 
     &:hover{
