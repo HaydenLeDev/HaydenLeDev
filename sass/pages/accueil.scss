@@ -15,13 +15,14 @@
 .exploration{
     @include display-column-center;
     gap: 20px;
-    padding: 20px 30px 40px 30px;
+    width: calc(100% - 40px);
+    padding: 20px 20px 40px 20px;
     background-color: $colour-light-grey;
 }
 
 .comment{
     @include display-column-center;
-    margin: 20px 0px 20px 00px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
     gap: 20px;
 }
@@ -31,8 +32,7 @@
 .functioning{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     max-width: 100%;
     gap: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 50px 20px 80px 20px;
 }

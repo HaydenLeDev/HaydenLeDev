@@ -65,6 +65,7 @@ button {
   background-color: #fcfcfc;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 500ms;
 }
 .functioning_carte_number {
   display: flex;
@@ -93,7 +94,7 @@ button {
   font-size: 18px;
 }
 .functioning_carte:hover {
-  background-color: #f7f2fc;
+  background-color: #f2eafb;
 }
 
 /* CSS de la section d'intro */
@@ -120,7 +121,8 @@ button {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 20px 30px 40px 30px;
+  width: calc(100% - 40px);
+  padding: 20px 20px 40px 20px;
   background-color: #f6f7f7;
 }
 
@@ -129,7 +131,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
   text-align: center;
   gap: 20px;
 }
@@ -138,10 +140,9 @@ button {
 .functioning {
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
   max-width: 100%;
   gap: 20px;
-  padding: 20px 20px 20px 20px;
+  padding: 50px 20px 80px 20px;
 }
 
 * {
