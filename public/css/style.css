@@ -8,6 +8,15 @@
   font-family: "Shrikhand", cursive;
 }
 
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.comment_paragraph {
+  color: #a0a09c;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -24,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -34,10 +44,50 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+button {
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  border-radius: 100px;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.functioning_carte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.functioning_carte_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  left: -10px;
+  color: #fff;
+  background-color: #9356DC;
+}
+.functioning_carte:hover {
+  background-color: #f7f2fc;
+}
+
+/* CSS de la section d'intro */
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .location {
@@ -45,14 +95,39 @@ header {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  background-color: #f6f7f7;
+  background-color: #ebebea;
   padding: 20px 0px 20px 0px;
+  width: 100%;
 }
 
 .exploration {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 30px 40px 30px;
+  background-color: #f6f7f7;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  gap: 20px;
+}
+
+/*CSS de la section functioning */
+.functioning {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  max-width: 100%;
+  gap: 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 * {

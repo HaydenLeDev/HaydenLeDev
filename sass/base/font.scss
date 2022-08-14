@@ -6,3 +6,12 @@
 .titre{
     font-family: 'Shrikhand', cursive;
 }
+
+h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.comment_paragraph{
+    color: darken($colour-gray, 30%);
+}

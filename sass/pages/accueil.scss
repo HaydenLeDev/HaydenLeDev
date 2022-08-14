@@ -1,3 +1,5 @@
+
+/* CSS de la section d'intro */
 .intro{
     @include display-column-center;
 }
@@ -5,10 +7,32 @@
 .location{
     @include display-horizontal-center;
     gap: 15px;
-    background-color: $colour-light-grey;
-    padding: 20px 0px 20px 00px;
+    background-color: $colour-gray;
+    padding: 20px 0px 20px 0px;
+    width: 100%
 }
 
 .exploration{
-    @include display-column-center
+    @include display-column-center;
+    gap: 20px;
+    padding: 20px 30px 40px 30px;
+    background-color: $colour-light-grey;
+}
+
+.comment{
+    @include display-column-center;
+    margin: 20px 0px 20px 00px;
+    text-align: center;
+    gap: 20px;
+}
+
+/*CSS de la section functioning */
+
+.functioning{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    max-width: 100%;
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
 }
