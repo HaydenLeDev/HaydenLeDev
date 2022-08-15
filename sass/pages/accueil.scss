@@ -46,10 +46,13 @@
 }
 
 /* CSS de la section restaurant */
-.retaurants{
+.restaurants{
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
-
+    gap: 20px;
+    padding: 0px 20px 0px 20px; 
     &_liste{
-        
+
     }
 }
