@@ -144,7 +144,15 @@ button {
   gap: 20px;
   padding: 50px 20px 80px 20px;
 }
+.functioning_list {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-left: 15px;
+  gap: 20px;
+}
 
+/* CSS de la section restaurant */
 * {
   padding: 0px;
   margin: 0px;
