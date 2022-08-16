@@ -150,31 +150,20 @@ button {
 .restaurants_carte_information_heart .complet {
   z-index: 0;
   background-color: #fff;
-  transition: all 500ms;
 }
 .restaurants_carte_information_heart .complet:hover {
   z-index: 2;
 }
 .restaurants_carte_information_heart .no_complet {
   fill: #fff;
-  stroke-width: 20px;
+  stroke-width: 25px;
   stroke: black;
   z-index: 2;
+  transition: all 500ms;
 }
 .restaurants_carte_information_heart .no_complet:hover {
   z-index: 0;
-  stroke: none;
-}
-
-.test {
-  background-color: blueviolet;
-  width: 100px;
-  height: 100px;
-  stroke-width: 10px;
-  stroke: aqua;
-}
-.test:hover {
-  fill: red;
+  stroke: white;
 }
 
 /* CSS de la section d'intro */
