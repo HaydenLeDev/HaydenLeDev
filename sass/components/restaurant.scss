@@ -36,9 +36,9 @@
 
         &_heart{
             position: relative;
-            width: 25px;
-            height: 25px;
-            font-size: 23px;
+            width: 30px;
+            height: 30px;
+            
 
             & .heart {
                 position: absolute;
@@ -46,26 +46,43 @@
                 height: 100%;
                 top: 0;
                 left: 0;
-                font-size: 23px;
+                
             }
 
             & .complet{
-                
-                font-size: 23px;
-                z-index: 1;
+                z-index: 0;
+                background-color: $colour-white;
+                transition: all 500ms;
                 &:hover{
-                    color: plum;
-                    
+                    z-index: 2;
                 }
             }
 
             & .no_complet{
-                z-index: 0;
+                fill: $colour-white;
+                stroke-width: 20px;
+                stroke: black;
+
+                z-index: 2;
 
                 &:hover{
                     z-index: 0;
+                    stroke: none;
                 }
             }
         }
+    }
+}
+
+
+.test{
+    background-color: blueviolet;
+    width: 100px; 
+    height: 100px; 
+    stroke-width: 10px;
+    stroke: aqua;
+
+    &:hover{
+        fill: red;
     }
 }

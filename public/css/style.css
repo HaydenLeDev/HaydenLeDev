@@ -137,9 +137,8 @@ button {
 }
 .restaurants_carte_information_heart {
   position: relative;
-  width: 25px;
-  height: 25px;
-  font-size: 23px;
+  width: 30px;
+  height: 30px;
 }
 .restaurants_carte_information_heart .heart {
   position: absolute;
@@ -147,20 +146,35 @@ button {
   height: 100%;
   top: 0;
   left: 0;
-  font-size: 23px;
 }
 .restaurants_carte_information_heart .complet {
-  font-size: 23px;
-  z-index: 1;
+  z-index: 0;
+  background-color: #fff;
+  transition: all 500ms;
 }
 .restaurants_carte_information_heart .complet:hover {
-  color: plum;
+  z-index: 2;
 }
 .restaurants_carte_information_heart .no_complet {
-  z-index: 0;
+  fill: #fff;
+  stroke-width: 20px;
+  stroke: black;
+  z-index: 2;
 }
 .restaurants_carte_information_heart .no_complet:hover {
   z-index: 0;
+  stroke: none;
+}
+
+.test {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  stroke-width: 10px;
+  stroke: aqua;
+}
+.test:hover {
+  fill: red;
 }
 
 /* CSS de la section d'intro */
