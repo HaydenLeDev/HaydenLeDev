@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    max-height: 250px;
+    width: 100%;
+    height: 250px;
     border-radius: 12px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -13,6 +14,7 @@
         width: 100%;
         border-radius: 12px 12px 0px 0px;
         object-fit: cover;
+        overflow-y: hidden;
         }
     }
 
@@ -37,7 +39,6 @@
             width: 25px;
             height: 25px;
             font-size: 23px;
-            background-color: red;
 
             & .heart {
                 position: absolute;
@@ -45,11 +46,25 @@
                 height: 100%;
                 top: 0;
                 left: 0;
+                font-size: 23px;
             }
 
-            & .heart .complet{
+            & .complet{
+                
+                font-size: 23px;
                 z-index: 1;
-                visibility: hidden;
+                &:hover{
+                    color: plum;
+                    
+                }
+            }
+
+            & .no_complet{
+                z-index: 0;
+
+                &:hover{
+                    z-index: 0;
+                }
             }
         }
     }

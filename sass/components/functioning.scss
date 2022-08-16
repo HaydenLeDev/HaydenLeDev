@@ -27,6 +27,7 @@
         
         &_icone{
             font-size: 20px;
+            transition: all 450ms;
         }
 
         & p{
@@ -37,6 +38,10 @@
 
     &:hover{
         background-color: lighten($colour-primary, 35%);
+
+        & .functioning_carte_text i{
+            color: $colour-primary;
+        }
     }
 }
 
