@@ -26,7 +26,13 @@ header {
 }
 header img {
   width: 180px;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 14px 15px 0px;
+}
+header a {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  font-size: 20px;
 }
 
 body {
@@ -78,6 +84,15 @@ footer {
   justify-content: center;
   justify-content: flex-start;
   gap: 12px;
+}
+
+.background img {
+  width: 100%;
+}
+
+.menu {
+  background-color: red;
+  border-radius: 20px 20px 0px 0px;
 }
 
 header {
