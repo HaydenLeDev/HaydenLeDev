@@ -1,0 +1,40 @@
+footer {
+    width: 100%;
+    background-color: $colour-dark-gray;
+}
+
+.footer_info {
+    padding: 30px 20px 30px 20px;
+
+    &_titre {
+        font-size: 17px;
+        color: $colour-white;
+        font-family: 'Shrikhand', cursive;
+        & img {
+            height: 20px;
+        }
+    }
+}
+
+.footer_list_liens {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 7px;
+    & p{
+        color: $colour-white;
+    }
+
+    & i{
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        color: $colour-white;
+    }
+
+    &_element{
+        @include display-horizontal-center;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+}

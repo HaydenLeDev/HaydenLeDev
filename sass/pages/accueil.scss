@@ -51,9 +51,11 @@
     flex-direction: column;
     max-width: 100%;
     gap: 20px;
-    padding: 0px 20px 0px 20px; 
+    padding: 0px 20px 50px 20px; 
     
     &_liste{
-
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 }
