@@ -23,6 +23,8 @@
         &_text{
             @include display-column;
             gap: 6px;
+            white-space: nowrap;
+            overflow: hidden;
 
             &_title{
                 font-weight: bold;

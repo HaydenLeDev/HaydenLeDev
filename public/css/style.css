@@ -315,6 +315,8 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .menu_carte_info_text_title {
   font-weight: bold;
