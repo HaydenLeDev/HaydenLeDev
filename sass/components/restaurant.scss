@@ -29,8 +29,7 @@
         border-radius: 0px 0px 12px 12px;
 
         &_text{
-            display: flex;
-            flex-direction: column;
+            @include display-column;
             justify-items: flex-start;
             gap: 5px;
             

@@ -30,15 +30,13 @@
 /*CSS de la section functioning */
 
 .functioning{
-    display: flex;
-    flex-direction: column;
+    @include display-column;
     max-width: 100%;
     gap: 20px;
     padding: 50px 20px 80px 20px;
 
     &_list{
-        display: flex;
-        flex-direction: column;
+        @include display-column;
         max-width: 100%;
         padding-left: 15px;
         gap: 20px;
@@ -47,15 +45,13 @@
 
 /* CSS de la section restaurant */
 .restaurants{
-    display: flex;
-    flex-direction: column;
+    @include display-column;
     max-width: 100%;
     gap: 20px;
     padding: 0px 20px 60px 20px; 
     
     &_liste{
-        display: flex;
-        flex-direction: column;
+        @include display-column;
         gap: 30px;
     }
 }
