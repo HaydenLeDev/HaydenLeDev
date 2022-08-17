@@ -86,13 +86,45 @@ footer {
   gap: 12px;
 }
 
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .background img {
   width: 100%;
 }
 
 .menu {
-  background-color: red;
+  position: relative;
+  bottom: 20px;
+  width: calc(100% - 40px);
+  padding: 30px 20px 0px 20px;
+  background-color: #f6f7f7;
   border-radius: 20px 20px 0px 0px;
+}
+.menu_titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_titre h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
+}
+.menu_portion_subtitle h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.menu_portion_subtitle_underline {
+  margin-top: 5px;
+  background-color: #99E2D0;
+  width: 55px;
+  height: 3px;
+}
+.menu_portion__list {
+  background-color: red;
 }
 
 header {

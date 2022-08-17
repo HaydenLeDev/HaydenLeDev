@@ -1,10 +1,49 @@
 .background{
+    @include display-column-center;
     & img{
         width: 100%;
     }
 }
 
 .menu{
-    background-color: red;
+    position: relative;
+    bottom: 20px;
+    width: calc(100% - 40px) ;
+    padding: 30px 20px 0px 20px;
+    background-color: $colour-light-grey;
     border-radius: 20px 20px 0px 0px;
+
+
+    &_titre{
+        @include display-horizontal;
+        justify-content: space-between;
+
+        & h1{
+        font-family: 'Shrikhand', cursive;
+        font-size: 30px;
+    }
+    } 
+    
+
+    &_portion{
+
+        &_subtitle {
+
+            & h2{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            
+            &_underline{
+                margin-top: 5px;
+                background-color: $colour-tertiary;
+                width: 55px;
+                height: 3px;
+            }
+        }
+
+        &__list{
+            background-color: red;
+        }
+    }
 }
