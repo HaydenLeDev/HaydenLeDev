@@ -123,8 +123,10 @@ footer {
   width: 55px;
   height: 3px;
 }
-.menu_portion__list {
-  background-color: red;
+.menu_portion_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 header {
@@ -334,6 +336,7 @@ button:hover {
   animation: rotate-center 0.8s ease-in-out;
   width: 25%;
 }
+
 @keyframes rotate-center {
   0% {
     transform: rotate(0);

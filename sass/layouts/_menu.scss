@@ -39,8 +39,9 @@
             }
         }
 
-        &__list {
-            background-color: red;
+        &_list {
+            @include display-column;
+            gap: 20px;
         }
     }
 }

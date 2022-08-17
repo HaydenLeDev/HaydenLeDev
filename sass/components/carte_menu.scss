@@ -8,6 +8,7 @@
     background-color: $colour-tertiary;
     cursor: pointer;
     animation: slide-in-bottom 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    
 
     &_info{
         @include display-horizontal;
@@ -48,9 +49,6 @@
         -webkit-animation:rotate-center .8s ease-in-out;
         animation:rotate-center .8s ease-in-out;
         width: 25%;
-    }
-
-    &:hover > .menu_carte_info{
     }
 }
 
