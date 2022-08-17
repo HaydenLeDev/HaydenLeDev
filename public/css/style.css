@@ -280,7 +280,7 @@ button:hover {
   flex-direction: column;
   max-width: 100%;
   gap: 20px;
-  padding: 50px 20px 80px 20px;
+  padding: 50px 20px 50px 20px;
 }
 .functioning_list {
   display: flex;
@@ -294,9 +294,10 @@ button:hover {
 .restaurants {
   display: flex;
   flex-direction: column;
+  background-color: #f6f7f7;
   max-width: 100%;
   gap: 20px;
-  padding: 0px 20px 60px 20px;
+  padding: 50px 20px 60px 20px;
 }
 .restaurants_liste {
   display: flex;

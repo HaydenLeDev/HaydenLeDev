@@ -33,7 +33,7 @@
     @include display-column;
     max-width: 100%;
     gap: 20px;
-    padding: 50px 20px 80px 20px;
+    padding: 50px 20px 50px 20px;
 
     &_list{
         @include display-column;
@@ -46,9 +46,10 @@
 /* CSS de la section restaurant */
 .restaurants{
     @include display-column;
+    background-color: $colour-light-grey;
     max-width: 100%;
     gap: 20px;
-    padding: 0px 20px 60px 20px; 
+    padding: 50px 20px 60px 20px; 
     
     &_liste{
         @include display-column;
