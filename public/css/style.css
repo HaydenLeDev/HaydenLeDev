@@ -118,7 +118,7 @@ footer {
   font-weight: 400;
 }
 .menu_portion_subtitle_underline {
-  margin-top: 5px;
+  margin: 5px 0px 20px 0px;
   background-color: #99E2D0;
   width: 55px;
   height: 3px;
@@ -282,6 +282,76 @@ button:hover {
   font-weight: 500;
 }
 
+.menu_carte {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #99E2D0;
+  cursor: pointer;
+  animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.menu_carte_info {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  padding: 12px 15px 12px 15px;
+  z-index: 1;
+}
+.menu_carte_info_text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.menu_carte_info_prix {
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+}
+.menu_carte_validate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99E2D0;
+  width: 0%;
+  height: 100%;
+  transition: all 800ms;
+}
+.menu_carte_validate_icone {
+  color: #fff;
+  font-size: 20px;
+}
+.menu_carte:hover > .menu_carte_validate {
+  -webkit-animation: rotate-center 0.8s ease-in-out;
+  animation: rotate-center 0.8s ease-in-out;
+  width: 25%;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 /* CSS de la section d'intro */
 .intro {
   display: flex;
