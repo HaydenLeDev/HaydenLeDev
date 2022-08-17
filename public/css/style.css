@@ -97,10 +97,13 @@ footer {
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   position: relative;
   bottom: 20px;
   width: calc(100% - 40px);
-  padding: 30px 20px 0px 20px;
+  padding: 30px 20px 40px 20px;
   background-color: #f6f7f7;
   border-radius: 20px 20px 0px 0px;
 }
@@ -295,7 +298,7 @@ button:hover {
   overflow: hidden;
   background-color: #99E2D0;
   cursor: pointer;
-  animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: slide-in-bottom 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .menu_carte_info {
   display: flex;
@@ -311,6 +314,8 @@ button:hover {
 .menu_carte_info_text {
   display: flex;
   flex-direction: column;
+  overflow: scroll;
+  font-size: 15px;
   gap: 6px;
 }
 .menu_carte_info_prix {
@@ -347,7 +352,7 @@ button:hover {
 }
 @keyframes slide-in-bottom {
   0% {
-    transform: translateY(50px);
+    transform: translateY(10px);
     opacity: 0;
   }
   100% {
@@ -355,6 +360,38 @@ button:hover {
     opacity: 1;
   }
 }
+#carte2 {
+  animation-delay: 0.1s;
+}
+
+#carte3 {
+  animation-delay: 0.2s;
+}
+
+#carte4 {
+  animation-delay: 0.3s;
+}
+
+#carte5 {
+  animation-delay: 0.4s;
+}
+
+#carte6 {
+  animation-delay: 0.5s;
+}
+
+#carte7 {
+  animation-delay: 0.6s;
+}
+
+#carte8 {
+  animation-delay: 0.7s;
+}
+
+#carte9 {
+  animation-delay: 0.8s;
+}
+
 /* CSS de la section d'intro */
 .intro {
   display: flex;
