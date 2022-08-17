@@ -22,9 +22,12 @@
 
         &_text{
             @include display-column;
-            overflow: scroll;
-            font-size: 15px;
-            gap: 6px
+            gap: 6px;
+
+            &_title{
+                font-weight: bold;
+            }
+            
         }
 
         &_prix{
@@ -51,6 +54,13 @@
         -webkit-animation:rotate-center .8s ease-in-out;
         animation:rotate-center .8s ease-in-out;
         width: 25%;
+    }
+
+    &:hover > .menu_carte_info > .menu_carte_info_text p{
+        width: 210px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 

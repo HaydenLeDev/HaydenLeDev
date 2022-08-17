@@ -314,9 +314,10 @@ button:hover {
 .menu_carte_info_text {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
-  font-size: 15px;
   gap: 6px;
+}
+.menu_carte_info_text_title {
+  font-weight: bold;
 }
 .menu_carte_info_prix {
   font-weight: bold;
@@ -340,6 +341,12 @@ button:hover {
   -webkit-animation: rotate-center 0.8s ease-in-out;
   animation: rotate-center 0.8s ease-in-out;
   width: 25%;
+}
+.menu_carte:hover > .menu_carte_info > .menu_carte_info_text p {
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @keyframes rotate-center {
