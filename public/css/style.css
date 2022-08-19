@@ -571,6 +571,7 @@ button .commander {
 .table {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 30px;
 }
 .table .table_ligne {
@@ -581,13 +582,20 @@ button .commander {
 
 @media screen and (min-width: 768px) and (max-width: 1144px) {
   .functioning {
-    background-color: red;
+    padding: 50px 40px 50px 40px;
   }
   .restaurants {
-    padding: 50px 60px 60px 60px;
+    padding: 50px 40px 60px 40px;
   }
   .restaurants_liste {
     flex-direction: row;
+  }
+  .table {
+    gap: 40px;
+  }
+  .table .table_ligne {
+    flex-direction: row;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1144px) {
