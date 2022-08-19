@@ -568,6 +568,53 @@ button .commander {
   gap: 30px;
 }
 
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.table .table_ligne {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1144px) {
+  .functioning {
+    background-color: red;
+  }
+  .restaurants {
+    padding: 50px 60px 60px 60px;
+  }
+  .restaurants_liste {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1144px) {
+  .functioning {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 20px;
+    padding: 50px 60px 50px 60px;
+  }
+  .functioning_list {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 50px;
+  }
+  .functioning_carte {
+    width: 33%;
+  }
+  .restaurants {
+    padding: 50px 60px 60px 60px;
+  }
+  .restaurants_liste {
+    flex-direction: row;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;
