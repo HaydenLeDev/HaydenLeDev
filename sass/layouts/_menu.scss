@@ -51,4 +51,37 @@
         @include display-column-center;
     }
 
+    &_table{
+        @include display-column;
+        gap: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 1144px) {
+
+    .background {
+        height: 1000px;
+        & img {
+            object-fit: cover;
+            width: 100%;
+            height: 600px;
+        }
+    }
+
+    .menu{
+        width: 60%;
+        bottom: 100px; 
+        border-radius: 20px;
+    }
+    .menu_table{
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .menu_portion{
+        width: 33%;
+    }
 }

@@ -110,7 +110,7 @@
         }
 
         &_carte{
-            width: 33%;
+            width: 100%;
         }
     }
 
@@ -119,5 +119,18 @@
         &_liste{
             flex-direction: row;
         }
+    }
+
+    .table{
+        flex-direction: row;
+        width: 100%;
+        gap: 40px;
+    
+        & .table_ligne{
+            width: 100%;
+            flex-direction: row;
+            gap: 30px;
+        }
+        
     }
 }

@@ -2,6 +2,7 @@ header{
     @include display-horizontal-center;
     width: 100%;
     z-index: 2;
+    background-color: $colour-white;
 
     img{
         width: 180px;
