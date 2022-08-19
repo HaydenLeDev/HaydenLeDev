@@ -23,11 +23,19 @@
         &_text{
             @include display-column;
             gap: 6px;
-            white-space: nowrap;
-            overflow: hidden;
+            
+            
 
             &_title{
                 font-weight: bold;
+            }
+
+            & p {
+                width: 100%;  
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;    
+       
             }
             
         }
@@ -44,7 +52,7 @@
         background-color:  $colour-tertiary;
         width: 0%;
         height: 100%;
-        transition: all 800ms;
+        transition: all 300ms;
 
         &_icone{
             color: $colour-white;
@@ -55,14 +63,12 @@
     &:hover > .menu_carte_validate{
         -webkit-animation:rotate-center .8s ease-in-out;
         animation:rotate-center .8s ease-in-out;
+        transition: all 800ms;
         width: 25%;
     }
 
     &:hover > .menu_carte_info > .menu_carte_info_text p{
-        width: 210px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        width: 210px;   
     }
 }
 
@@ -123,4 +129,8 @@
 
 #carte9{
     animation-delay: 0.8s;
+}
+
+#carte10{
+    animation-delay: 0.9s;
 }
