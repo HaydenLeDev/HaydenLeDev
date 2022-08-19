@@ -40,6 +40,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: body-hidden 2s linear 1;
 }
 
 main {
@@ -417,6 +418,82 @@ button .commander {
   animation-delay: 0.9s;
 }
 
+.section_loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+  animation: spiner-hidden 2s linear 1;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  border-top-color: #9356DC;
+  border-bottom-color: #FF79DA;
+  position: relative;
+  animation: spiner 1.25s linear 2;
+}
+.loader::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  bottom: -15px;
+  right: -15px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  border-bottom-color: #9356DC;
+  border-top-color: #FF79DA;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  border-bottom-color: #9356DC;
+  border-top-color: #FF79DA;
+}
+
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spiner-hidden {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /* CSS de la section d'intro */
 .intro {
   display: flex;
