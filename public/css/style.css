@@ -424,8 +424,11 @@ button .commander {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 10;
   height: 100vh;
   width: 100%;
@@ -479,6 +482,7 @@ button .commander {
 @keyframes spiner-hidden {
   0% {
     visibility: visible;
+    overflow: hidden;
     opacity: 1;
   }
   25% {
