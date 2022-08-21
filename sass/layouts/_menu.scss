@@ -2,6 +2,8 @@
     @include display-column-center;
     & img {
         width: 100%;
+        height: 200px;
+        object-fit: cover
     }
 }
 
@@ -11,7 +13,7 @@
     position: relative;
     bottom: 20px;
     width: calc(100% - 40px);
-    padding: 30px 20px 40px 20px;
+    padding: 30px 20px 60px 20px;
     background-color: $colour-light-grey;
     border-radius: 20px 20px 0px 0px;
 
@@ -29,7 +31,7 @@
         &_subtitle {
             & h2 {
                 font-size: 20px;
-                font-weight: 400;
+                font-weight: lighter;
             }
 
             &_underline {
@@ -37,7 +39,6 @@
                 background-color: $colour-tertiary;
                 width: 55px;
                 height: 3px;
-
             }
         }
 
@@ -59,7 +60,26 @@
 }
 
 
-@media screen and (min-width: 1144px) {
+@media screen and (min-width: 768px) and (max-width: 1500px){
+    .background {
+        & img {
+            object-fit: cover;
+            width: 100%;
+            height: 450px;
+        }
+    }
+    .menu{
+        width: 70%;
+        bottom: 100px; 
+        border-radius: 20px;
+        &_table{
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1500px) {
 
     .background {
         & img {
@@ -70,7 +90,7 @@
     }
 
     .menu{
-        width: 60%;
+        width: 80%;
         bottom: 100px; 
         border-radius: 20px;
         &_table{

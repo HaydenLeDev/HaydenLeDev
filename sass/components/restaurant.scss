@@ -34,10 +34,12 @@
             gap: 5px;
             
             & h3{
-                font-size: 17px;
+                font-size: 18px;
+                font-weight: 500;
             }
             & p{
-                font-size: 15px;
+                font-size: 17px;
+                font-weight: 300;
             }
         }
 
@@ -69,7 +71,7 @@
                 stroke-width: 25px;
                 stroke: black;
                 z-index: 2;
-                transition: all 500ms;
+                transition: all 400ms;
                 &:hover{
                     z-index: 0;
                     stroke: $colour-white;
@@ -87,10 +89,10 @@
         width: 65px;
         padding: 7px 10px 7px 10px;
         background-color: $colour-tertiary;
-        border-radius: 5px;
+        border-radius: 3px;
 
         & p{
-            color: darken($colour-tertiary, 50%);
+            color: darken($colour-tertiary, 40%);
             font-weight: 500;
         }
     }

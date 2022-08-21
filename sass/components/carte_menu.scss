@@ -24,19 +24,18 @@
             @include display-column;
             gap: 6px;
             
-            
-
-            &_title{
-                font-weight: bold;
-            }
-
             & p {
                 width: 100%;  
                 white-space: nowrap;
                 overflow: hidden;
-                text-overflow: ellipsis;    
-       
+                text-overflow: ellipsis;
             }
+            
+
+            &_title{
+                font-size: 18px;
+                font-weight: 500;
+            }  
             
         }
 
