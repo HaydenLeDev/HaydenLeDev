@@ -156,9 +156,6 @@ footer {
 }
 
 @media screen and (min-width: 1144px) {
-  .background {
-    height: 1000px;
-  }
   .background img {
     object-fit: cover;
     width: 100%;
