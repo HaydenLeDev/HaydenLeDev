@@ -310,7 +310,7 @@ button .commander {
   justify-items: flex-start;
   gap: 5px;
 }
-.restaurants_carte_information_text h3 {
+.restaurants_carte_information_text h2 {
   font-size: 18px;
   font-weight: 500;
 }
