@@ -1,16 +1,25 @@
-*{
-    font-family: 'Roboto', sans-serif;
+* {
+    font-family: "Roboto", sans-serif;
     font-size: $font-size-normal;
 }
 
-.titre{ 
-    font-family: 'Shrikhand', cursive;
+.titre {
+    font-family: "Shrikhand", cursive;
 }
 
-h1{
+h1 {
     font-size: 26px;
 }
 
-.comment_paragraph{
+.comment_paragraph {
     color: darken($colour-gray, 30%);
+}
+
+.menu {
+    & p {
+        color: $colour-dark-gray;
+    }
+    & h2 {
+        color: $colour-dark-gray;
+    }
 }
