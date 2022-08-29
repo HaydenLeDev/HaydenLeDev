@@ -60,6 +60,7 @@
             & .complet{
                 z-index: 0;
                 background-color: $colour-white;
+                
 
                 &:hover{
                     z-index: 2;
@@ -74,6 +75,7 @@
                 transition: all 400ms;
                 &:hover{
                     z-index: 0;
+                    stroke-width: 0px;
                     stroke: $colour-white;
                 }
             }

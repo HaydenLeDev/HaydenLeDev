@@ -17,13 +17,111 @@ h1 {
   color: #a0a09c;
 }
 
-.menu p {
-  color: #343534;
-}
-.menu h2 {
+.menu_carte_info_text_information {
   color: #343534;
 }
 
+.menu_portion_subtitle h2 {
+  color: #343534;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  bottom: 20px;
+  width: calc(100% - 40px);
+  padding: 30px 20px 60px 20px;
+  background-color: #f6f7f7;
+  border-radius: 20px 20px 0px 0px;
+}
+.menu_titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu_titre h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
+}
+.menu_portion_subtitle h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.menu_portion_subtitle_underline {
+  margin: 5px 0px 20px 0px;
+  background-color: #99E2D0;
+  width: 55px;
+  height: 3px;
+}
+.menu_portion_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu .button_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu_table {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menu .restaurants_carte_information_heart .complet {
+  background-color: #f6f7f7;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+  .background img {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+  }
+  .menu {
+    width: 70%;
+    bottom: 100px;
+    border-radius: 20px;
+  }
+  .menu_table {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .background img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+  }
+  .menu {
+    width: 80%;
+    bottom: 100px;
+    border-radius: 20px;
+  }
+  .menu_table {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .menu_portion {
+    width: 33%;
+  }
+}
 header {
   display: flex;
   align-items: center;
@@ -105,100 +203,6 @@ footer {
 @media screen and (min-width: 1144px) {
   .footer_info {
     padding: 30px 60px 30px 60px;
-  }
-}
-.background {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.background img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  position: relative;
-  bottom: 20px;
-  width: calc(100% - 40px);
-  padding: 30px 20px 60px 20px;
-  background-color: #f6f7f7;
-  border-radius: 20px 20px 0px 0px;
-}
-.menu_titre {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.menu_titre h1 {
-  font-family: "Shrikhand", cursive;
-  font-size: 30px;
-}
-.menu_portion_subtitle h2 {
-  font-size: 20px;
-  font-weight: lighter;
-}
-.menu_portion_subtitle_underline {
-  margin: 5px 0px 20px 0px;
-  background-color: #99E2D0;
-  width: 55px;
-  height: 3px;
-}
-.menu_portion_list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.menu .button_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.menu_table {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1500px) {
-  .background img {
-    object-fit: cover;
-    width: 100%;
-    height: 450px;
-  }
-  .menu {
-    width: 70%;
-    bottom: 100px;
-    border-radius: 20px;
-  }
-  .menu_table {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1500px) {
-  .background img {
-    object-fit: cover;
-    width: 100%;
-    height: 600px;
-  }
-  .menu {
-    width: 80%;
-    bottom: 100px;
-    border-radius: 20px;
-  }
-  .menu_table {
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .menu_portion {
-    width: 33%;
   }
 }
 header {
@@ -342,6 +346,7 @@ button .commander {
 }
 .restaurants_carte_information_heart .no_complet:hover {
   z-index: 0;
+  stroke-width: 0px;
   stroke: #fff;
 }
 .restaurants_carte_new {
@@ -391,15 +396,15 @@ button .commander {
   flex-direction: column;
   gap: 6px;
 }
+.menu_carte_info_text_title {
+  font-size: 18px;
+  font-weight: 500;
+}
 .menu_carte_info_text p {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-.menu_carte_info_text_title {
-  font-size: 18px;
-  font-weight: 500;
 }
 .menu_carte_info_prix {
   font-weight: bold;
@@ -575,10 +580,30 @@ button .commander {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
   background-color: #ebebea;
-  padding: 20px 0px 20px 0px;
+  padding: 15px 0px 15px 0px;
   width: 100%;
+}
+.location i {
+  color: #343534;
+  font-size: 19px;
+}
+.location form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: baseline;
+  gap: 17px;
+}
+.location form input {
+  border: none;
+  background-color: transparent;
+}
+.location form input::placeholder {
+  opacity: 1;
+  color: #343534;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .exploration {

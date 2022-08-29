@@ -15,11 +15,10 @@ h1 {
     color: darken($colour-gray, 30%);
 }
 
-.menu {
-    & p {
-        color: $colour-dark-gray;
-    }
-    & h2 {
-        color: $colour-dark-gray;
-    }
+.menu_carte_info_text_information{
+    color: $colour-dark-gray;
+}
+
+.menu_portion_subtitle h2{
+    color: $colour-dark-gray;
 }

@@ -3,10 +3,11 @@
 
 @import "./base/font";
 
+
+@import "./layouts/menu";
 @import "./layouts/header";
 @import "./layouts/body";
 @import "./layouts/footer";
-@import "./layouts/menu";
 
 @import "./components/header.scss";
 @import "./components/button.scss";

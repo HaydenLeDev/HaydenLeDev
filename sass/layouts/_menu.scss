@@ -57,8 +57,13 @@
         gap: 30px;
     }
 
-}
+    & .restaurants_carte_information_heart{
+        & .complet{
+            background-color: $colour-light-grey;
+        }
+    }
 
+}
 
 @media screen and (min-width: 768px) and (max-width: 1500px){
     .background {
