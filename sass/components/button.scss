@@ -1,3 +1,5 @@
+/** Contient le scss des boutons. **/
+
 button{
     @include box-shadow;
     background: linear-gradient(0deg, $colour-primary ,$colour-secondary);
