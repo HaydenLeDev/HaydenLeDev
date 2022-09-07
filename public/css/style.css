@@ -1,5 +1,6 @@
 /* Color variable */
 /*Font variables*/
+/** Contient le scss des fonts du site. **/
 * {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -209,6 +210,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+/** Contient le scss des boutons. **/
 button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   background: linear-gradient(0deg, #9356DC, #FF79DA);
@@ -367,6 +369,7 @@ button .commander {
   font-weight: 500;
 }
 
+/** Contient le scss des fonts du site. **/
 .menu_carte {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -555,17 +558,8 @@ button .commander {
     overflow: hidden;
     opacity: 1;
   }
-  25% {
-    opacity: 0.9;
-  }
-  60% {
-    opacity: 0.8;
-  }
-  80% {
-    opacity: 0.7;
-  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 /* CSS de la section d'intro */
