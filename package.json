@@ -1,19 +1,23 @@
 {
-  "name": "haydenledev.github.io",
+  "name": "front-end-fisheye",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rien à installer ici, il suffit d'ouvrir le fichier `index.html`.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaydenLeDev/HaydenLeDev.github.io.git"
+    "url": "git+https://github.com/HaydenLeDev/Front-End-Fisheye.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HaydenLeDev/HaydenLeDev.github.io/issues"
+    "url": "https://github.com/HaydenLeDev/Front-End-Fisheye/issues"
   },
-  "homepage": "https://github.com/HaydenLeDev/HaydenLeDev.github.io#readme"
+  "homepage": "https://github.com/HaydenLeDev/Front-End-Fisheye#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
 }
