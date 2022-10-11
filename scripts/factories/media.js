@@ -24,7 +24,7 @@ function photoCardFactory(data, photographe) {
         const cardInfoLike = document.createElement('button');
         const nblikes = document.createElement('span');
         nblikes.setAttribute('class', 'card-info-nblikes'); 
-        const iconLike = document.createElement('i');
+        const iconLike = document.createElement('span');
         cardInfoLike.setAttribute('class', 'card-info-like'); 
         cardInfoLike.setAttribute('aria-label', 'likes'); 
         iconLike.setAttribute('class', 'fas fa-heart');
