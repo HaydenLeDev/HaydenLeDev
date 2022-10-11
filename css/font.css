@@ -68,7 +68,7 @@ p{
     color: #911C1C;
 }
 
-.card span{
+.card i{
     font-size: 16px;
     color: #911C1C;
 }
@@ -79,11 +79,17 @@ p{
     font-family: "DM Sans", sans-serif;
 }
 
-.card-info-like span{
+.card-info-like i{
     font-size: 24px;
 }
 
 .card-info-like:hover span{
+    color: #DB8876;
+    transition: all 0.6s;
+}
+
+
+.card-info-like:hover i{
     color: #DB8876;
     transition: all 0.6s;
 }

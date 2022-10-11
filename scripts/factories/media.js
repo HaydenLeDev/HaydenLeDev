@@ -22,7 +22,7 @@ function photoCardFactory(data, photographe) {
         const cardInfo = document.createElement('div');
         cardInfo.setAttribute('class', 'card-info');
         const cardInfoLike = document.createElement('button');
-        const nblikes = document.createElement('span');
+        const nblikes = document.createElement('i');
         nblikes.setAttribute('class', 'card-info-nblikes'); 
         const iconLike = document.createElement('span');
         cardInfoLike.setAttribute('class', 'card-info-like'); 
