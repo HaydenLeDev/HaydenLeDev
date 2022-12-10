@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-acceuil{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-tarif-inforamtion{
+    width: 300px;
+}
+
+.footer-contact-inforamtion-instagram-logo{
+    width: 20px;
+}
+
+.footer-separation{
+    width: 2px;
+    height: 300px;
+    background-color: black;
+}
+
+.footer-contact-inforamtion-instagram{
+    display: flex;
+    gap: 10px;
+}
