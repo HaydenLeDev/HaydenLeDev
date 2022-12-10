@@ -112,7 +112,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
 
 .mission-text-background{
@@ -122,8 +121,8 @@ main{
 
 .mission-text-info{
     position: absolute;
-    padding-top: 300px;
-    padding-left: 100px;
+    padding-top: 350px;
+    padding-left: 80px;
     text-align: center;
     width: 335px;
     height: 100%;
@@ -145,3 +144,11 @@ main{
 .mission-text-info-paragraphe-item{
     font-size: 23px;
 }
+
+.mission-text-info-lien{
+    color: var(--main-color);
+    padding-right: 10px;
+    text-align: end;
+    padding-top: 16px;
+}
+
