@@ -1,0 +1,25 @@
+@import url("./components/header.css");
+@import url("./pages/accueil.css");
+
+:root{
+    --color-text: black;
+    --main-color: #007001;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;  
+    font-family: 'Petrona', serif;
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-text);
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

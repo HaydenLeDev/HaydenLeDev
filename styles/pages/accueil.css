@@ -1,0 +1,64 @@
+main{
+    width: 100%;
+    background-color: blue;
+}
+
+
+.titre{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.center{
+    width: 100%;
+    position: absolute;
+    top: 33vh;
+}
+
+.titre_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.center-tache-blanche{
+    position: absolute;
+    width: 1000px;
+    height: auto;
+}
+
+.titre_logo_titre{
+    z-index: 2;
+}
+
+.titre_logo_img{
+    z-index: 2;
+    width: 621px;   
+}
+
+.titre-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.citation{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+}
+
+.citation_left{
+    background-color: aqua;
+}
+
+.citation_right{
+    background-color: brown;
+}
+

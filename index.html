@@ -1,22 +1,51 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-  <head>
-    <meta charset="utf-8">
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
-    <title>Fisheye</title>
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>mu_nutrition</title>
+</head>
+
+<body>
     <header>
-        <a href="index.html"><img src="assets/images/logo.png" alt ="Fisheye Home page" class="logo"/></a>
-        <h1>Nos photographes</h1>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/logo.png" alt="Logo Muriel Berliner"></a>
+        </div>
+        <nav class="menu">
+                <a class="menu-liste-item menu-liste-item-actif" href="./index.html">Acceuil</a>
+                <a class="menu-liste-item" href="./pages/qui_suis_je.html">Qui-suis-je?</a>
+                <a class="menu-liste-item" href="./pages/atelier.html">Ateliers</a>
+                <a class="menu-liste-item" href="./pages/consultation.html">Consultation</a>
+                <a class="menu-liste-item" href="./pages/contact.html">Contact</a>
+            </ul>
+        </nav>
     </header>
-    <main id="main">
-        <section class="photographer_section"></section>
+    <main>
+        <section class="titre">
+            <img class="titre-background" src="./assets/bg_assiet.jpg" alt="Fond de décoration">
+            <div class="center">
+                <div class="titre_logo">
+                    <img class="center-tache-blanche" src="./assets/tache blanche_Horizontal.png" alt="Tache Blanche">
+                    <img class="titre_logo_img" src="./assets/logo.png" alt="Logo Muriel nutrition">
+                    <h1 class="titre_logo_titre">Conseillère en nutrition</h1>
+                </div>
+            </div>
+        </section>
+        <section class="citation">
+            <div class="citation_left">
+                <img src="./assets/assiete_feuilles.png" alt="">
+            </div>
+            <div class="citation_right">
+                <img src="./assets/tache verte.png" alt="">
+            </div>
+        </section>
     </main>
-    <script type="module" src="scripts/pages/index.js"></script>
-  </body>
+</body>
+
 </html>
