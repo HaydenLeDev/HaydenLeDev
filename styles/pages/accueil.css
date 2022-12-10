@@ -1,9 +1,9 @@
 main{
     width: 100%;
-    background-color: blue;
 }
 
 
+/* Section 1 : Titre */
 .titre{
     position: relative;
     width: 100%;
@@ -48,17 +48,49 @@ main{
     object-fit: cover;
 }
 
+
+/* Section 2 : Citation */
+
 .citation{
-    background-color: blue;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 98vh;
 }
 
 .citation_left{
-    background-color: aqua;
+
 }
 
 .citation_right{
-    background-color: brown;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.citation_right_text{
+    position: absolute;
+    width: 350px;
+    height: 637px;
+    top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.citation_right_text_paragraphes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.citation_right_text_titre{
+    font-size: 32px;
+}
+
+.citation_right_text_paragraphes_item{
+    font-size: 23px;
+}
