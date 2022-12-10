@@ -72,9 +72,9 @@ main{
 
 .citation_right_text{
     position: absolute;
-    width: 350px;
+    width: 380px;
     height: 637px;
-    top: 150px;
+    top: 145px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -84,11 +84,11 @@ main{
 .citation_right_text_paragraphes{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
 }
 
 .citation_right_text_titre{
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .citation_right_text_paragraphes_item{
