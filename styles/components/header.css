@@ -15,14 +15,15 @@ header{
     display: flex;
     gap: 30px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .menu-liste-item{
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     padding-bottom: 23px;
 }
 
 .menu-liste-item-actif{
     color: var(--main-color);
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
 }

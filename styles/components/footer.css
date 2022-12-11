@@ -2,6 +2,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #F2F0F1;
 }
 
 .footer-acceuil{
@@ -12,8 +13,32 @@ footer{
     gap: 100px;
 }
 
+.footer-tarif{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .footer-tarif-inforamtion{
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+
+.footer-contact{
+    height: 250px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer-contact-inforamtion{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
 }
 
 .footer-contact-inforamtion-instagram-logo{
