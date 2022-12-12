@@ -220,15 +220,15 @@ main {
         z-index: 2;
     }
 
-    .citation_right{
-        
-    }
-
-    .citation_right_text{
-        
-    }
-
     main{
         overflow-x: hidden;
+    }
+
+    .citation{
+        height: 98vh;
+    }
+
+    .mission{
+        height: 98vh;
     }
 }
