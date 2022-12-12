@@ -220,6 +220,10 @@ main {
         z-index: 2;
     }
 
+    .citation_right_text_paragraphes_item {
+        padding: 0px 20px 0px 20px;
+    }
+
     main{
         overflow-x: hidden;
     }
