@@ -118,6 +118,14 @@ header {
     .logo img {
         width: 90%;
     }
+
+    .sidenav{
+        width: 100%;
+    }
+
+    .sidenav.active {
+        left: 0%;
+    }
 }
 
 
