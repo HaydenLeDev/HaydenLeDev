@@ -197,6 +197,10 @@ main {
 
 /* Re size 1050px */
 @media screen and (max-width: 1050px) {
+    .titre{
+        height: 95vh;
+    }
+    
     .titre_logo {
         width: 100%;
         gap: 5px;
@@ -216,8 +220,15 @@ main {
         z-index: 2;
     }
 
+    .citation_right{
+        
+    }
+
+    .citation_right_text{
+        
+    }
+
     main{
-        width: 100%;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
