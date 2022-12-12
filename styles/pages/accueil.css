@@ -194,3 +194,24 @@ main {
         padding: 350px 30px 0px 0px;
     }
 }
+
+/* Re size 1050px */
+@media screen and (max-width: 1050px) {
+    .titre_logo {
+        width: 100%;
+    }
+    
+    .center-tache-blanche {
+        width: 100%;
+    }
+    
+    .titre_logo_img {
+        z-index: 2;
+        width: 80%;
+    }
+
+    .titre_logo_titre {
+        font-size: 38px;
+        z-index: 2;
+    }
+}

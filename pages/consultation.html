@@ -17,7 +17,7 @@
         <div class="logo">
             <a href="../index.html"><img src="../assets/logo.png" alt="Logo Muriel Berliner"></a>
         </div>
-        <nav class="menu">
+        <nav class="menu-full">
             <a class="menu-liste-item" href="../index.html">Acceuil</a>
             <a class="menu-liste-item" href="./qui_suis_je.html">Qui-suis-je?</a>
             <a class="menu-liste-item" href="./atelier.html">Ateliers</a>
@@ -25,6 +25,24 @@
             <a class="menu-liste-item" href="./contact.html">Contact</a>
             </ul>
         </nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">&times;</a>
+            <ul>
+                <a href="../index.html">Acceuil</a>
+                <a href="./qui_suis_je.html">Qui-suis-je?</a>
+                <a href="./atelier.html">Ateliers</a>
+                <a href="./consultation.html">Consultation</a>
+                <a href="./contact.html">Contact</a>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
     </header>
     <main>
         <section class="container">
@@ -83,5 +101,5 @@
         </section>
     </main>
 </body>
-
+<script src="../js/menuBurger.js"></script>
 </html>
