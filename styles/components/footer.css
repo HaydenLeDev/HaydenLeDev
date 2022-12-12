@@ -3,6 +3,7 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #F2F0F1;
+    padding: 50px 0px 50px 0px;
 }
 
 .footer-acceuil{
@@ -10,6 +11,7 @@ footer{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -26,7 +28,6 @@ footer{
     flex-direction: column;
     gap: 19px;
 }
-
 
 .footer-contact{
     height: 250px;
