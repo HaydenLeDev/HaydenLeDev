@@ -38,7 +38,7 @@ header {
         display: none;
     }
 
-    .header{
+    header{
         align-items: center;
     }
 
@@ -46,14 +46,19 @@ header {
     .sidenav {
         display: block;
         height: 100%;
-        width: 500px;
+        width: 40%;
         position: fixed;
         z-index: 100;
         top: 0;
-        left: -500px;
+        left: 100%;
         background-color: white;
         padding-top: 60px;
         transition: left 0.5s ease;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 4px 0px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    #openBtn{
+        height: 100%;
     }
 
     .sidenav ul {
@@ -73,12 +78,12 @@ header {
     }
 
     .sidenav a:hover {
-        color: #111;
+        color: var(--main-color);
     }
 
     /* Active class */
     .sidenav.active {
-        left: 0;
+        left: 60%;
     }
 
     /* Close btn */
@@ -93,7 +98,8 @@ header {
         display: block;
         width: 35px;
         height: 5px;
-        background-color: black;
+        background-color: var(--main-color);
+        border-radius: 3px;
         margin: 6px 0;
     }
 }
