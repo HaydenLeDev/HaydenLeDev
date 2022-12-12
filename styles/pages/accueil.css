@@ -199,6 +199,7 @@ main {
 @media screen and (max-width: 1050px) {
     .titre_logo {
         width: 100%;
+        gap: 5px;
     }
     
     .center-tache-blanche {
@@ -211,7 +212,12 @@ main {
     }
 
     .titre_logo_titre {
-        font-size: 38px;
+        font-size: 24px;
         z-index: 2;
+    }
+
+    main{
+        width: 100%;
+        overflow-y: hidden;
     }
 }
