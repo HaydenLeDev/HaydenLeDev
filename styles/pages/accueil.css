@@ -239,3 +239,10 @@ main {
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    .titre_logo_titre {
+        font-size: 18px;
+        z-index: 2;
+    }
+}
