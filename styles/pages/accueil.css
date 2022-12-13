@@ -238,6 +238,10 @@ main {
         height: 98vh;
     }
 
+    .mission-text-info{
+        padding: 350px 0px 0px 0px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
