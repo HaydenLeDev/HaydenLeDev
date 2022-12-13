@@ -229,7 +229,9 @@ main {
     }
 
     .citation{
-        margin-bottom: 70px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .mission{
