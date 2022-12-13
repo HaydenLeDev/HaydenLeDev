@@ -229,10 +229,11 @@ main {
     }
 
     .citation{
-        height: 98vh;
+        margin-bottom: 70px;
     }
 
     .mission{
         height: 98vh;
     }
+
 }
