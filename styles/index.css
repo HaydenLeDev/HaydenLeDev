@@ -1,6 +1,7 @@
 @import url("./components/header.css");
 @import url("./components/footer.css");
 @import url("./pages/consultation.css");
+@import url("./pages/aPropos.css");
 @import url("./pages/accueil.css");
 
 :root{
