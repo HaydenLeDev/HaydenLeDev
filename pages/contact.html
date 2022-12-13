@@ -18,11 +18,11 @@
             <a href="../index.html"><img src="../assets/logo.png" alt="Logo Muriel Berliner"></a>
         </div>
         <nav class="menu-full">
-                <a class="menu-liste-item" href="../index.html">Acceuil</a>
-                <a class="menu-liste-item" href="./qui_suis_je.html">Qui-suis-je?</a>
-                <a class="menu-liste-item" href="./atelier.html">Ateliers</a>
-                <a class="menu-liste-item" href="./consultation.html">Consultation</a>
-                <a class="menu-liste-item menu-liste-item-actif" href="./contact.html">Contact</a>
+            <a class="menu-liste-item" href="../index.html">Acceuil</a>
+            <a class="menu-liste-item" href="./qui_suis_je.html">Qui-suis-je?</a>
+            <a class="menu-liste-item" href="./atelier.html">Ateliers</a>
+            <a class="menu-liste-item" href="./consultation.html">Consultation</a>
+            <a class="menu-liste-item menu-liste-item-actif" href="./contact.html">Contact</a>
             </ul>
         </nav>
         <div id="mySidenav" class="sidenav">
@@ -45,8 +45,66 @@
         </a>
     </header>
     <main>
-        
+        <section class="contact">
+            <div class="contact-left">
+                <img src="../assets/amandes.png" alt="Amandes pour la décoration" srcset="">
+            </div>
+            <div class="contact-right"> 
+                <h1>Me contacter</h1>
+                <form action="https://formspree.io/f/xvoyejgv" method="POST">
+                    <label>
+                        <input class="input-info" type="text" name="nom" placeholder="Nom">
+                    </label>
+                    <label>
+                        <input class="input-info" type="text" name="prenom" placeholder="Prénom">
+                    </label>
+                    <label>
+                        <input class="input-info" type="email" name="email" placeholder="Votre email">
+                    </label>
+                    <label>
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button class="bouton" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer-acceuil">
+            <div class="footer-decoration">
+                <img src="../assets/puding_shia.png" alt="Puding de shia">
+            </div>
+            <div class="footer-information">
+                <div class="footer-tarif">
+                    <h2>Tarifs</h2>
+                    <div class="footer-tarif-inforamtion">
+                        <p class="footer-tarif-inforamtion-para">Consultations : 60€</p>
+                        <p class="footer-tarif-inforamtion-para">En cas d&#39;annulation, je vous remercie
+                            de bien vouloir me prévenir 48h à l&#39;avance minimum. Le cas échéant, une somme
+                            de 20 € vous sera facturée.</p>
+                    </div>
+                </div>
+                <span class="footer-separation"></span>
+                <div class="footer-contact">
+                    <h2>Contact</h2>
+                    <div class="footer-contact-inforamtion">
+                        <p>Muriel Berliner</p>
+                        <p>tél :+32 (0)475 356 114</p>
+                        <p>email: murielberliner@gmail.com</p>
+                        <p>www.mu-nutrition.com</p>
+                        <div class="footer-contact-inforamtion-instagram">
+                            <img class="footer-contact-inforamtion-instagram-logo" src="../assets/instagram.png"
+                                alt="Logo instagram">
+                            <a href="https://www.instagram.com/mu_nutrition/?hl=fr">mu-nutrition</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="../js/menuBurger.js"></script>
+
 </html>

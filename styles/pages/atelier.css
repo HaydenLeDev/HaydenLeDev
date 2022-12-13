@@ -1,0 +1,49 @@
+.atelier-titre{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 40px 0px;
+
+}
+
+.atelier-titre h1{
+    font-size: 36px;
+}
+
+.atelier-liste{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.atelier-liste-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atelier-liste-item-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 300px;
+    padding-right: 50px;
+}
+
+.atelier-feuille{
+    width: 241px;
+    position: absolute;
+    top: -170px;
+    left: -140px;
+    z-index: 2;
+}
+.atelier-feuille img{
+    width: 100%;
+    rotate: 90deg;
+}
