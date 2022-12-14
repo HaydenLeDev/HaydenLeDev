@@ -8,11 +8,13 @@
 }
 
 .container-left{
-    width: 50%
+    width: 50%;
+    position: relative;
 }
 
 .container-right{
     width: 50%;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -30,7 +32,39 @@
 }
 
 .container img{
-    width: 100%;
+    width: 500px;
+}
+
+#consultation-feuilles-decoration{
+    position: absolute;
+    width: 250px;
+    rotate: -170deg;
+    left: 300px;
+    top: -50px;
+}
+
+#consultation-feuilles-decoration_2{
+    position: absolute;
+    width: 250px;
+    rotate: 0deg;
+    left: -150px;
+    top: 420px;
+}
+
+#consultation-feuilles-decoration_3{
+    position: absolute;
+    width: 200px;
+    rotate: -10deg;
+    left: -30px;
+    top: -10px;
+}
+
+#consultation-feuilles-decoration_4{
+    position: absolute;
+    width: 240px;
+    rotate: 10deg;
+    right: -25%;
+    bottom: -150px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -39,6 +73,22 @@
         padding: 50px 150px 0px 150px;
         gap: 150px;
     }
+
+    #consultation-feuilles-decoration_4{
+        position: absolute;
+        width: 240px;
+        rotate: 10deg;
+        right: -20%;
+        bottom: -150px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    #consultation-feuilles-decoration_4{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 1300px) {
@@ -67,6 +117,14 @@
     
     .container-right{
         width: 100%;    
+    }
+
+    .container img{
+        width: 100%;
+    }
+    
+    .cons-feuilles_deco{
+        display: none;
     }
 
     .main-consultation{
