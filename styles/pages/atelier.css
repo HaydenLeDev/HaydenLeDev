@@ -1,3 +1,8 @@
+.atelier{
+    /* A retirer si on rajoute des ateliers */
+    height: 90vh;
+}
+
 .atelier-titre{
     width: 100%;
     display: flex;

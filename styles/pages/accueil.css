@@ -150,6 +150,12 @@ main {
     padding-top: 16px;
 }
 
+.mission-feuille-decoration {
+    position: absolute;
+    rotate: 90deg;
+    top: -100px;
+}
+
 /* Re size 1600px */
 @media screen and (max-width: 1600px) {
     .citation {
@@ -178,38 +184,42 @@ main {
         display: none;
     }
 
-    .mission-text{
+    .mission-text {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
 
-    .mission-text-background{
+    .mission-text-background {
         padding: 0px;
     }
 
-    .mission-text-info{
+    .mission-text-info {
         height: 100%;
         padding: 350px 30px 0px 0px;
+    }
+    
+    .mission-feuille-decoration {
+        display: none;
     }
 }
 
 /* Re size 1050px */
 @media screen and (max-width: 1050px) {
-    .titre{
+    .titre {
         height: 95vh;
     }
-    
+
     .titre_logo {
         width: 100%;
         gap: 5px;
     }
-    
+
     .center-tache-blanche {
         width: 100%;
     }
-    
+
     .titre_logo_img {
         z-index: 2;
         width: 80%;
@@ -224,24 +234,23 @@ main {
         padding: 0px 20px 0px 20px;
     }
 
-    main{
+    main {
         overflow-x: hidden;
     }
 
-    .citation{
+    .citation {
         height: auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .mission{
+    .mission {
         height: 98vh;
     }
 
-    .mission-text-info{
+    .mission-text-info {
         padding: 350px 0px 0px 0px;
     }
-
 }
 
 @media screen and (max-width: 400px) {

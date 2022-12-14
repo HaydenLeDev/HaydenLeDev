@@ -64,6 +64,17 @@ footer{
     gap: 10px;
 }
 
+.footer-decoration{
+    position: relative;
+}
+
+.footer-decoration-feuilles{
+    position: absolute;
+    width: 250px;
+    bottom: -50px;
+    left: -120px;
+}
+
 /* Re size 1330px */
 @media screen and (max-width: 1330px) {
     .footer-information{
