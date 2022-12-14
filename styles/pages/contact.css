@@ -7,9 +7,11 @@
     gap: 200px;
 }
 
+.contact-left {
+    position: relative;
+}
 
-
-.contact-left img{
+.contact-left-deco{
     width: 100%;
 }
 
@@ -89,6 +91,13 @@ textarea{
 ::placeholder {
     color: #7B797A;
     font-size: 16px;
+}
+
+.contact-left-feuilles{
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+    right: -20px;
 }
 
 @media screen and (max-width: 1440px) {
