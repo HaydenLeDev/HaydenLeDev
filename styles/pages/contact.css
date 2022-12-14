@@ -15,6 +15,12 @@
     width: 100%;
 }
 
+.formulaire-layout{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
 .contact-right{
     height: 90vh;
     display: flex;
@@ -65,7 +71,7 @@
 }
 
 textarea{
-    width: 340px;
+    width: calc(100% - 10px);
     height: 100px;
     padding-top: 8px;
     padding-left: 10px;
@@ -98,6 +104,27 @@ textarea{
     width: 300px;
     bottom: 0px;
     right: -20px;
+}
+
+#info-email{
+    width: calc(100% - 10px);
+}
+
+@media screen and (max-width: 1600px) {
+    .formulaire-layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    #info-email{
+        width: 340px;
+    }
+
+    textarea{
+        width: 340px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -144,5 +171,9 @@ textarea{
     
     .bouton{
         width: 250px;
+    }
+
+    #info-email{
+        width: 240px;
     }
 }

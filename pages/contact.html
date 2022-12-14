@@ -68,17 +68,19 @@
                 <div class="formulaire">
                     <h1>Me contacter</h1>
                     <form action="https://formspree.io/f/xvoyejgv" method="POST">
-                        <label>
-                            <input class="input-info" type="text" name="nom" placeholder="Nom">
+                        <div class="formulaire-layout">
+                            <label>
+                            <input class="input-info" type="text" name="nom" placeholder="Nom" required>
                         </label>
                         <label>
-                            <input class="input-info" type="text" name="prenom" placeholder="Prénom">
+                            <input class="input-info" type="text" name="prenom" placeholder="Prénom" required>
+                        </label>
+                        </div>
+                        <label>
+                            <input id="info-email" class="input-info" type="email" name="email" placeholder="Votre email" required>
                         </label>
                         <label>
-                            <input class="input-info" type="email" name="email" placeholder="Votre email">
-                        </label>
-                        <label>
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message" required></textarea>
                         </label>
                         <!-- your other form fields go here -->
                         <button class="bouton" type="submit">Envoyer</button>
