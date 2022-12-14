@@ -128,6 +128,7 @@
     }
 
     .main-consultation{
+        overflow-x: hidden;
         padding-bottom: 50px;
     }
 }
