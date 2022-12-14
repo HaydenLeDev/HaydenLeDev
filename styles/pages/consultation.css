@@ -1,6 +1,6 @@
 .container{
     width: calc(100% - 400px);
-    padding: 50px 200px 0px 200px;
+    padding: 80px 200px 80px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +67,13 @@
     bottom: -150px;
 }
 
+@media screen and (min-width: 2000px) {
+    #consultation-feuilles-decoration_4{
+        right: -18%;
+    }
+}
+
+
 @media screen and (max-width: 1600px) {
     .container{
         width: calc(100% - 300px);
@@ -128,7 +135,6 @@
     }
 
     .main-consultation{
-        overflow-x: hidden;
         padding-bottom: 50px;
     }
 }
