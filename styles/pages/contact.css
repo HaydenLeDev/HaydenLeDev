@@ -94,6 +94,12 @@ textarea{
 
 }
 
+.bouton-layout{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
 ::placeholder {
     color: #7B797A;
     font-size: 16px;
@@ -116,6 +122,11 @@ textarea{
         flex-direction: column;
         justify-content: center;
         gap: 16px;
+    }
+
+    .bouton-layout{
+        width: auto;
+        justify-content: flex-start;
     }
 
     #info-email{
