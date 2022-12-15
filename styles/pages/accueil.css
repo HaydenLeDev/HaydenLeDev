@@ -34,6 +34,7 @@ main {
 
 .titre_logo_titre {
     font-size: 38px;
+    color: #5F5F5F;
     z-index: 2;
 }
 
@@ -221,13 +222,11 @@ main {
     }
 
     .titre_logo_img {
-        z-index: 2;
         width: 80%;
     }
 
     .titre_logo_titre {
         font-size: 24px;
-        z-index: 2;
     }
 
     .citation_right_text_paragraphes_item {
@@ -249,13 +248,31 @@ main {
     }
 
     .mission-text-info {
-        padding: 350px 0px 0px 0px;
+        padding: 350px 20px 0px 20px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .titre_logo_titre {
         font-size: 18px;
-        z-index: 2;
+    }
+
+    .mission-text-info {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .mission-text-background{
+        display: none;
+    }
+    
+    .mission-background{
+        display: none;
+    }
+
+    .mission-text-info {
+        position: static;
+        padding: 0px 20px 0px 20px;
     }
 }
