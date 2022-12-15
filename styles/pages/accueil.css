@@ -263,6 +263,24 @@ main {
 }
 
 @media screen and (max-width: 350px) {
+    .citation_right{
+        width: 100%;
+    }
+    
+    .citation_right_text {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .citation_right_text_titre{
+        font-size: 24px;
+    }
+
+    .citation_right_text_paragraphes_item{
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+    }
+    
     .mission-text-background{
         display: none;
     }
@@ -274,5 +292,20 @@ main {
     .mission-text-info {
         position: static;
         padding: 0px 20px 0px 20px;
+    }
+
+
+    .mission-text-info-titre {
+        font-size: 24px;
+    }
+
+    .mission-text-info-paragraphe-item{
+        font-size: 18px;
+    }
+
+    .mission {
+        height: fit-content;
+        padding-top: 200px;
+        padding-bottom: 200px;
     }
 }
