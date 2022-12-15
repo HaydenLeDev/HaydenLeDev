@@ -1,5 +1,6 @@
 .container{
     width: calc(100% - 400px);
+    max-width: 1440px;
     padding: 80px 200px 80px 200px;
     display: flex;
     justify-content: center;
