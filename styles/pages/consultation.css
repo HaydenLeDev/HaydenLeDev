@@ -32,6 +32,13 @@
     font-size: 18px;
 }
 
+.container-text-paragaraphes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
 .container img{
     width: 500px;
 }

@@ -40,7 +40,7 @@ main {
 
 .titre_logo_img {
     z-index: 2;
-    width: 621px;
+    width: 800px;
 }
 
 .titre-background {
@@ -305,7 +305,7 @@ main {
 
     .mission {
         height: fit-content;
-        padding-top: 100px;
+        padding-top: 1 00px;
         padding-bottom: 200px;
     }
 }
