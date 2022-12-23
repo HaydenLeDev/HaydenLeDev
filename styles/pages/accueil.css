@@ -309,4 +309,13 @@ main {
         padding-top: 1 00px;
         padding-bottom: 200px;
     }
+
+    .mission-feuille-decoration{
+        display: block;
+        width: 100px;
+        right: 15px;;
+        top: 40px;
+        rotate: 250deg;
+        
+    }
 }
