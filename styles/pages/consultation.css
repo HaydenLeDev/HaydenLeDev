@@ -1,3 +1,9 @@
+.main-consultation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container{
     width: calc(100% - 400px);
     max-width: 1440px;
@@ -63,8 +69,9 @@
     position: absolute;
     width: 200px;
     rotate: -10deg;
-    left: -30px;
-    top: -10px;
+    left: 420px;
+    top: 10px;
+    rotate: -60deg;
 }
 
 #consultation-feuilles-decoration_4{
@@ -112,6 +119,10 @@
         padding: 50px 100px 0px 100px;
         gap: 100px;
     }
+
+    #consultation-feuilles-decoration_3{
+        left: 400px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -122,8 +133,8 @@
         gap: 50px;
     }
 
-    .image-disparait{
-        display: none;
+    .constainer-reverse{
+        flex-direction: column-reverse;
     }
 
     .container-left{
@@ -145,6 +156,7 @@
     .main-consultation{
         padding-bottom: 50px;
     }
+
 }
 
 @media screen and (max-width: 800px) {
