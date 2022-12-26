@@ -186,6 +186,10 @@ main {
 
 /* Re size 1330px */
 @media screen and (max-width: 1330px) {
+    .mission {
+        height: 750px;
+    }
+        
     .citation_left {
         display: none;
     }
@@ -248,9 +252,6 @@ main {
         margin-bottom: 70px;
     }
 
-    .mission {
-        height: 750px;
-    }
 
     .mission-text-info {
         padding: 350px 20px 0px 20px;
