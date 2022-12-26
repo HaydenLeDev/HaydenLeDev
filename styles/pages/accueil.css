@@ -89,6 +89,7 @@ main {
 
 .citation_right_text_paragraphes_item {
     font-size: 23px;
+    line-height: 28px;
 }
 
 /* Section 3 : Mission */
@@ -189,7 +190,7 @@ main {
     .mission {
         height: 750px;
     }
-        
+
     .citation_left {
         display: none;
     }
@@ -238,10 +239,6 @@ main {
         font-size: 24px;
     }
 
-    .citation_right_text_paragraphes_item {
-        padding: 0px 20px 0px 20px;
-    }
-
     main {
         overflow-x: hidden;
     }
@@ -276,6 +273,7 @@ main {
     .mission-text-info {
         width: calc(100% - 40px);
     }
+    
 }
 
 @media screen and (max-width: 350px) {
@@ -289,7 +287,6 @@ main {
     
     .citation_right_text {
         width: 100%;
-        padding-top: 50px;
     }
 
     .citation_right_text_titre{
@@ -298,6 +295,7 @@ main {
 
     .citation_right_text_paragraphes_item{
         font-size: 18px;
+        line-height: 22px;
         padding: 0px 0px 0px 0px;
     }
     
@@ -336,8 +334,7 @@ main {
         width: 100px;
         right: 15px;;
         top: 40px;
-        rotate: 250deg;
-        
+        rotate: 250deg;   
     }
 
     .mission-mobile-decoration{
