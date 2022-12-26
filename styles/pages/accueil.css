@@ -219,11 +219,11 @@ main {
     }
 
     .center-tache-blanche {
-        width: 100%;
+        width: 80%;
     }
 
     .titre_logo_img {
-        width: 80%;
+        width: 68%;
     }
 
     .titre_logo_titre {
@@ -245,11 +245,21 @@ main {
     }
 
     .mission {
-        height: 98vh;
+        height: 750px;
     }
 
     .mission-text-info {
         padding: 350px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .center-tache-blanche {
+        width: 100%;
+    }
+
+    .titre_logo_img {
+        width: 80%;
     }
 }
 
@@ -306,7 +316,7 @@ main {
 
     .mission {
         height: fit-content;
-        padding-top: 1 00px;
+        padding-top: 100px;
         padding-bottom: 200px;
     }
 
