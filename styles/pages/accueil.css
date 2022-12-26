@@ -158,6 +158,10 @@ main {
     top: -100px;
 }
 
+.mission-mobile-decoration{
+    display: none;
+}
+
 /* Re size 1600px */
 @media screen and (max-width: 1600px) {
     .citation {
@@ -274,6 +278,10 @@ main {
 }
 
 @media screen and (max-width: 350px) {
+    .citation{
+        margin-bottom: 10px;
+    }
+    
     .citation_right{
         width: 100%;
     }
@@ -316,16 +324,29 @@ main {
 
     .mission {
         height: fit-content;
-        padding-top: 100px;
-        padding-bottom: 200px;
+        padding-bottom: 380px;
+        display: flex;
+        position: static;
+        flex-direction: column;
     }
 
     .mission-feuille-decoration{
-        display: block;
+        display: none;
         width: 100px;
         right: 15px;;
         top: 40px;
         rotate: 250deg;
         
+    }
+
+    .mission-mobile-decoration{
+        display: block;
+        position: static;
+    }
+
+    .mission-mobile-decoration img{
+        width: 100%;
+        padding-left: 15px;
+        padding-bottom: 40px;
     }
 }
