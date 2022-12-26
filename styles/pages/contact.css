@@ -116,6 +116,14 @@ textarea{
     right: -20px;
 }
 
+.contact-left-feuilles_2{
+    position: absolute;
+    rotate: 65deg;
+    width: 300px;
+    top: -40px;
+    left: -40px;
+}
+
 #info-email{
     width: calc(100% - 10px);
 }
