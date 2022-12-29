@@ -59,6 +59,10 @@
     z-index: 2;
 }
 
+.background_photo-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 1500px) {
     .feuille-decoration-apropos{
         right: 0px;
@@ -102,6 +106,20 @@
     }
 
     .feuille-decoration-apropos{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .background_photo-mobile{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .background_photo{
         display: none;
     }
 }

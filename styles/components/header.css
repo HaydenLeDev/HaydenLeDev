@@ -11,6 +11,10 @@ header {
     width: 366px;
 }
 
+.logo-mobile {
+    display: none;
+}
+
 .menu-full {
     display: flex;
     gap: 30px;
@@ -112,10 +116,22 @@ header {
 @media screen and (max-width: 550px) {
     header {
         width: calc(100% - 40px);
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 10px 20px;
     }
     
-    .logo img {
+    .logo{
+        display: none;
+    }
+
+    .logo-mobile{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+
+
+    }
+
+    .logo-mobile img {
         width: 60%;
     }
 
