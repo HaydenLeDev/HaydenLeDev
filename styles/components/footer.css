@@ -1,9 +1,21 @@
 footer{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #F2F0F1;
-    padding: 80px 0px 60px 0px;
+    padding: 80px 0px 30px 0px;
+    flex-direction: column;
+}
+
+.footer-programmeur{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 20px;
+    width: calc(100% - 20px);
+    font-size: 12px;
 }
 
 .footer-acceuil{
@@ -28,6 +40,7 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+
 
 .footer-tarif-inforamtion{
     width: 300px;
@@ -98,6 +111,12 @@ footer{
         width: 100%;
         height: auto;
     }   
+
+    .footer-programmeur{
+    padding-right: 10px;
+    padding-top: 30px;
+    width: calc(100% - 10px);
+}
 }
 
 /* Re size 1330px */
@@ -105,4 +124,8 @@ footer{
     .footer-decoration{
         display: none;
     }
+
+       .footer-programmeur{
+        justify-content: center;
+}
 }
