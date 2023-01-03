@@ -270,7 +270,7 @@ main {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .titre_logo_titre {
         font-size: 18px;
     }
@@ -285,7 +285,7 @@ main {
     
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     .citation{
         margin-bottom: 10px;
     }
