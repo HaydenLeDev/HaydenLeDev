@@ -1,0 +1,51 @@
+footer {
+    width: 100%;
+    background-color: $colour-dark-gray;
+}
+
+.footer_info {
+    padding: 30px 20px 30px 20px;
+
+    &_titre {
+        font-size: 17px;
+        color: $colour-white;
+        font-family: 'Shrikhand', cursive;
+        & img {
+            height: 20px;
+        }
+    }
+}
+
+.footer_list_liens {
+    @include display-column;
+    padding-top: 20px;
+    gap: 7px;
+    & p{
+        color: $colour-white;
+    }
+
+    & i{
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        color: $colour-white;
+    }
+
+    &_element{
+        @include display-horizontal-center;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1144px){
+    .footer_info{
+        padding: 30px 40px 30px 40px;
+    }
+}
+
+@media screen and (min-width: 1144px) {
+    .footer_info{
+        padding: 30px 60px 30px 60px;
+    }
+}

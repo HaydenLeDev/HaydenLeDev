@@ -1,0 +1,26 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./base/font";
+
+
+@import "./layouts/menu";
+@import "./layouts/header";
+@import "./layouts/body";
+@import "./layouts/footer";
+
+@import "./components/header.scss";
+@import "./components/button.scss";
+@import "./components/functioning.scss";
+@import "./components/restaurant.scss";
+@import "./components/carte_menu.scss";
+@import "./components/loader.scss";
+
+@import "./pages/accueil.scss";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    text-decoration: none;
+}

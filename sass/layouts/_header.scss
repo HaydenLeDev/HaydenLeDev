@@ -1,0 +1,22 @@
+header{
+    @include display-horizontal-center;
+    width: 100%;
+    z-index: 2;
+    background-color: $colour-white;
+
+    img{
+        width: 180px;
+        padding: 15px 14px 15px 0px;
+    }
+
+    & a{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+
+        & i {
+            font-size: 20px;
+        }
+    }
+}
+

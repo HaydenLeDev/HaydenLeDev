@@ -1,0 +1,47 @@
+.functioning_carte{
+    @include display-horizontal-center;
+    @include box-shadow;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 25px 0px 25px 0px;
+    background-color: darken($colour-white, 1%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+
+    &_number{
+        @include display-horizontal-center;
+        position: relative;
+        width: 26px;
+        height: 26px;
+        border-radius: 100%;
+        left: -13px;
+        color: $colour-white;
+        background-color: $colour-primary;
+        font-size: 18px;
+    }
+
+    &_text{
+        @include display-horizontal-center;
+        gap: 10px;
+        
+        &_icone{
+            font-size: 20px;
+            transition: all 500ms;
+        }
+
+        & p{
+            margin-left: 10px;
+            font-size: 18px;
+        }
+    }
+
+    &:hover{
+        background-color: lighten($colour-primary, 35%);
+
+        & .functioning_carte_text i{
+            color: $colour-primary;
+        }
+    }
+}
+

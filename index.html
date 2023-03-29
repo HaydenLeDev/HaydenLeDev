@@ -1,1 +1,298 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><title>React App</title><script defer="defer" src="/static/js/main.ae1b9c5a.js"></script><link href="/static/css/main.29ba4014.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Shrikhand&display=swap"
+        rel="stylesheet">
+
+    <!--Import des icones-->
+    <script src="https://kit.fontawesome.com/e98437f901.js"></script>
+
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>OhMyFood</title>
+</head>
+
+<body>
+    <!-- Debut du header -->
+    <header>
+        <div class="logo"><img src="images/logo/ohmyfood.png" alt="Logo"></div>
+    </header>
+    <!-- Debut du main -->
+    <main>
+        <!-- Debut de la section d'intro -->
+        <section class="intro">
+            <div class="location">
+                <form action="#">
+                    <i class='fas fa-map-marker-alt'></i>
+                    <input type="text" placeholder="Paris, Belleville">
+                </form>
+            </div>
+            <div class="exploration">
+                <div class="comment">
+                    <h1>Réservez le menu qui vous convient</h1>
+                    <p class="comment_paragraph">
+                        Découvrez des restaurants d'exception, séléctionnés par nos soins.
+                    </p>
+                </div>
+                <button><span>Explorer nos restaurants</span></button>
+            </div>
+        </section>
+        <!-- Debut de la section functioning -->
+        <section class="functioning">
+            <h1>Fonctionnement</h1>
+            <div class="functioning_list">
+                <div class="functioning_carte">
+                    <div class="functioning_carte_number">1</div>
+                    <div class="functioning_carte_text">
+                        <i class='fas fa-mobile-alt functioning_carte_text_icone'></i>
+                        <p>
+                            Choisissez un restaurant
+                        </p>
+                    </div>
+                </div>
+                <div class="functioning_carte">
+                    <div class="functioning_carte_number">2</div>
+                    <div class="functioning_carte_text">
+                        <i class='fas fa-list functioning_carte_text_icone'></i>
+                        <p>
+                            Composez votre menu
+                        </p>
+                    </div>
+                </div>
+                <div class="functioning_carte">
+                    <div class="functioning_carte_number">3</div>
+                    <div class="functioning_carte_text">
+                        <i class='fas fa-store functioning_carte_text_icone'></i>
+                        <p>
+                            Dégustez au restaurant
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Debut de la section des restaurants -->
+        <section class="restaurants">
+            <h1>Restaurants</h1>
+            <!-- Liste de tout les restaurant -->
+            <div class="restaurants_liste">
+                <div class="table">
+                    <div class="table_ligne">
+                        <!-- Carte restaurant -->
+                        <a href="pages/menu_1.html" class="restaurants_carte">
+                            <div class="restaurants_carte_image">
+                                <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                    alt="Image la palette du goût">
+                                <!-- Logo nouveau -->
+                                <div class="restaurants_carte_new">
+                                    <p>Nouveau</p>
+                                </div>
+                            </div>
+                            <div class="restaurants_carte_information">
+                                <div class="restaurants_carte_information_text">
+                                    <h2>La palette du goût</h2>
+                                    <p>Ménilmontant</p>
+                                </div>
+                                <div class="restaurants_carte_information_heart">
+                                    <!-- Coeur Vide -->
+                                    <svg class="heart no_complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " />
+                                        </g>
+                                    </svg>
+                                    <!-- Coeur Rempli -->
+                                    <svg class="heart complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <defs>
+                                                <linearGradient id="MyGradient_1">
+                                                    <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:#FF79DA;stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " fill="url(#MyGradient_1)" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Carte restaurant -->
+                        <a href="pages/menu_2.html" class="restaurants_carte">
+                            <div class="restaurants_carte_image">
+                                <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                                    alt="Image La note enchantée">
+                                <!-- Logo nouveau -->
+                                <div class="restaurants_carte_new">
+                                    <p>Nouveau</p>
+                                </div>
+                            </div>
+                            <div class="restaurants_carte_information">
+                                <div class="restaurants_carte_information_text">
+                                    <h2>La note enchantée</h2>
+                                    <p>Charonne</p>
+                                </div>
+                                <div class="restaurants_carte_information_heart">
+                                    <svg class="heart no_complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " />
+                                        </g>
+                                    </svg>
+                                    <svg class="heart complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <defs>
+                                                <linearGradient id="MyGradient_2">
+                                                    <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:#FF79DA;stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " fill="url(#MyGradient_2)" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="table_ligne">
+                        <!-- Carte restaurant -->
+                        <a href="pages/menu_3.html" class="restaurants_carte">
+                            <div class="restaurants_carte_image">
+                                <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                                    alt="Image A la française">
+                            </div>
+                            <div class="restaurants_carte_information">
+                                <div class="restaurants_carte_information_text">
+                                    <h2>A la française</h2>
+                                    <p>Cité Rouge</p>
+                                </div>
+                                <div class="restaurants_carte_information_heart">
+                                    <svg class="heart no_complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " />
+                                        </g>
+                                    </svg>
+                                    <svg class="heart complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <defs>
+                                                <linearGradient id="MyGradient_3">
+                                                    <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:#FF79DA;stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " fill="url(#MyGradient_3)" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Carte restaurant -->
+                        <a href="pages/menu_4.html" class="restaurants_carte">
+                            <div class="restaurants_carte_image">
+                                <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                    alt="Image Le délice des sens">
+                            </div>
+                            <div class="restaurants_carte_information">
+                                <div class="restaurants_carte_information_text">
+                                    <h2>Le délice des sens</h2>
+                                    <p>Folie-Méricourt</p>
+                                </div>
+                                <div class="restaurants_carte_information_heart">
+                                    <svg class="heart no_complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " />
+                                        </g>
+                                    </svg>
+                                    <svg class="heart complet" viewBox="0, 0, 500,500">
+                                        <g>
+                                            <defs>
+                                                <linearGradient id="MyGradient_4">
+                                                    <stop offset="0%" style="stop-color:#9356DC;stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:#FF79DA;stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M112.500 34.735 C 45.768 46.482,4.999 109.643,19.192 179.291 C 31.718 
+                                        240.755,101.233 329.478,231.250 449.942 C 249.239 466.609,251.745 466.122,278.916 
+                                        440.678 C 401.446 325.939,468.656 238.923,480.808 179.291 C 507.568 47.980,348.160
+                                        -21.398,267.083 86.274 C 261.965 93.072,252.152 108.825,251.233 111.720 C 250.524
+                                        113.955,249.615 113.737,248.406 111.042 C 224.824 58.470,165.831 25.348,112.500 
+                                        34.735 " fill="url(#MyGradient_4)" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section_loader">
+            <span class="loader"></span>
+        </div>
+    </main>
+    <!-- Debut du footer -->
+    <footer>
+        <div class="footer_info">
+            <p class="footer_info_titre">ohmyfood</p>
+            <div class="footer_list_liens">
+                <a href="" class="footer_list_liens_element">
+                    <i class='fas fa-utensils'></i>
+                    <p>Proposer un restaurant</p>
+                </a>
+                <a href="" class="footer_list_liens_element">
+                    <i class='fas fa-hands-helping'></i>
+                    <p>Devenir partenaire</p>
+                </a>
+                <a href="">
+                    <p>Mentions légales</p>
+                </a>
+                <a href="mailto:ohmyfood@gmail.com">
+                    <p>Contact</p>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

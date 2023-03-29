@@ -1,0 +1,24 @@
+/** Contient le scss des boutons. **/
+
+button{
+    @include box-shadow;
+    background: linear-gradient(0deg, $colour-primary ,$colour-secondary);
+    border-radius: 100px;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+
+    & span{
+        color: $colour-white;
+    }
+
+    &:hover{
+        background: linear-gradient(0deg, lighten($colour-primary, 5%) ,lighten($colour-secondary,5%));
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
+    }
+
+    & .commander{
+        padding: 0px 20px 0px 20px;
+    }
+}

@@ -1,0 +1,26 @@
+@mixin display-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin display-horizontal-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin display-horizontal {
+    display: flex;
+    align-items: center;
+}
+
+@mixin box-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);   
+}

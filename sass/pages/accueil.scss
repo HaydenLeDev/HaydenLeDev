@@ -1,0 +1,153 @@
+/* CSS de la section d'intro */
+.intro {
+    @include display-column-center;
+}
+
+.location {
+    @include display-horizontal-center;
+    background-color: $colour-gray;
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+
+    & i{
+        color: $colour-dark-gray;
+        font-size: 19px;
+    }
+
+    & form {
+        @include display-horizontal-center;
+        align-items: baseline;
+        gap: 17px;  
+        
+
+        & input {
+            border: none;
+            background-color: transparent;
+
+            &::placeholder {
+                opacity: 1;
+                color: $colour-dark-gray;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.exploration {
+    @include display-column-center;
+    gap: 20px;
+    width: calc(100% - 40px);
+    padding: 20px 20px 40px 20px;
+    background-color: $colour-light-grey;
+}
+
+.comment {
+    @include display-column-center;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    gap: 20px;
+}
+
+/*CSS de la section functioning */
+
+.functioning {
+    @include display-column;
+    max-width: 100%;
+    gap: 20px;
+    padding: 50px 20px 50px 20px;
+
+    &_list {
+        @include display-column;
+        max-width: 100%;
+        padding-left: 15px;
+        gap: 20px;
+    }
+}
+
+/* CSS de la section restaurant */
+.restaurants {
+    @include display-column;
+    background-color: $colour-light-grey;
+    max-width: 100%;
+    gap: 20px;
+    padding: 50px 20px 60px 20px;
+
+    &_liste {
+        @include display-column;
+        gap: 30px;
+    }
+}
+
+.table {
+    @include display-column;
+    width: 100%;
+    gap: 30px;
+
+    & .table_ligne {
+        @include display-column;
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1144px) {
+    .functioning {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .restaurants {
+        padding: 50px 40px 60px 40px;
+        &_liste {
+            flex-direction: row;
+        }
+    }
+
+    .table {
+        gap: 40px;
+
+        & .table_ligne {
+            flex-direction: row;
+            gap: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1144px) {
+    .functioning {
+        @include display-column;
+        max-width: 100%;
+        gap: 20px;
+        padding: 50px 60px 50px 60px;
+
+        &_list {
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            width: 100%;
+            gap: 50px;
+        }
+
+        &_carte {
+            width: 100%;
+        }
+    }
+
+    .restaurants {
+        padding: 50px 60px 60px 60px;
+        &_liste {
+            flex-direction: row;
+        }
+    }
+
+    .table {
+        flex-direction: row;
+        width: 100%;
+        gap: 40px;
+
+        & .table_ligne {
+            width: 100%;
+            flex-direction: row;
+            gap: 30px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+/** Contient le scss des fonts du site. **/
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: $font-size-normal;
+}
+
+.titre {
+    font-family: "Shrikhand", cursive;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.comment_paragraph {
+    color: darken($colour-gray, 30%);
+}
+
+.menu_carte_info_text_information{
+    color: $colour-dark-gray;
+}
+
+.menu_portion_subtitle h2{
+    color: $colour-dark-gray;
+}
