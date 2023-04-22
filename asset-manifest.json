@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a299ea8f.css",
+    "main.js": "/static/js/main.2c468e93.js",
+    "static/media/img6.webp": "/static/media/img6.a3274b627b320e8b89d7.webp",
+    "static/media/img2.jpg": "/static/media/img2.ff94df38a723261e21fd.jpg",
+    "static/media/img1.jpg": "/static/media/img1.c0e675faf10bf7c1c106.jpg",
+    "static/media/Les_variations_logo_pour-fond-fonce.png": "/static/media/Les_variations_logo_pour-fond-fonce.e8b3aac2bf2afc5f55e6.png",
+    "static/media/grand_logo_bleu_foncer.png": "/static/media/grand_logo_bleu_foncer.4f685972e650e54035fa.png",
+    "static/media/help.svg": "/static/media/help.2fbc2a21921c67e86e1e7cd1fcfe4b4e.svg",
+    "static/media/panier.svg": "/static/media/panier.d26262eab7834e95eba12858f18f725b.svg",
+    "index.html": "/index.html",
+    "static/media/user.svg": "/static/media/user.4e6d416f86687b796c230ac9ff3269c8.svg",
+    "static/media/loupe.svg": "/static/media/loupe.772ad153bbdc589b2aca890a0eb60e57.svg",
+    "static/media/close.svg": "/static/media/close.364e04079aceea313e53525317b345b1.svg",
+    "main.a299ea8f.css.map": "/static/css/main.a299ea8f.css.map",
+    "main.2c468e93.js.map": "/static/js/main.2c468e93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a299ea8f.css",
+    "static/js/main.2c468e93.js"
+  ]
+}
